@@ -1,0 +1,78 @@
+dataset
+	cub200
+
+data
+	./data/
+
+workers
+	8
+
+epochs
+	50
+
+start_epoch
+	0
+
+batch_size
+	32
+
+modellr
+	0.0001
+
+weight_decay
+	0.0001
+
+gpu
+	[0]
+
+eps
+	0.01
+
+dim
+	512
+
+freeze_BN
+	True
+
+r
+	0.05
+
+C
+	100
+
+N
+	12
+
+rate
+	0.1
+
+centerlr
+	0.03
+
+warm
+	1
+
+weight_lambda
+	0.3
+
+new_epoch_to_decay
+	[20, 40]
+
+epoch_to_test
+	[1, 2, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+
+device
+	cuda
+
+k_vals
+	[1, 2, 4, 8]
+
+cN
+	100
+
+save_path
+	/home/rc/Documents/ProxyGML/Training_Results/ProxyGML_cub200/dim512_weight_lambda0.3_N12_r0.05_bs32_graph_lr0.03_epoch_to_decay[20, 40]_
+
+savename
+	ProxyGML_cub200/dim512_weight_lambda0.3_N12_r0.05_bs32_graph_lr0.03_epoch_to_decay[20, 40]_
+
